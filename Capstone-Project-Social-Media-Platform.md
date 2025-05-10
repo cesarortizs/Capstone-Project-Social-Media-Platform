@@ -1,0 +1,7 @@
+**Documentation**
+
+Retrieveng the posts and activies of a user was easy I just had to use a simple join to get the data from two different tables, getting the comments and likes of a specific post was almost the same, it just needed more than two tables, to obtain the list of followers and unred messages of an user I just had to filter the results of a simple query, getting the most liked posts required a join, grouping the results and ordering them, as it did the latest notifications of an user.
+
+To obtain the most followed users I had to use a function to count the entries, also to group them and to order them, finding the most activer users was one of the most challenging ones, as it required counting the distinct entries with a function, grouping the results, ordering the results and joining multiples tables with a left join, finally obtaining the average number of comments per post just required some functions.
+
+To automatically notify the user when he receives a message I created a trigger to insert a new notification in its table after a new message was inserted in its table, obviously the reciever of the message and the notification should be the same user, to generate personalized recommendations I created a stored procedure which will recieve a user_id as a paremeter and will check in the follows table all the users which that specific user still doesn’t follow, then it will send a notification for every user reminding the main user to follow them.
