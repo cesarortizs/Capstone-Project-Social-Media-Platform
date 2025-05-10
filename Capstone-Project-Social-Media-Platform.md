@@ -1,6 +1,6 @@
 **Documentation**
 
-Retrieveng the posts and activies of a user was easy I just had to use a simple join to get the data from two different tables, getting the comments and likes of a specific post was almost the same, it just needed more than two tables, to obtain the list of followers and unred messages of an user I just had to filter the results of a simple query, getting the most liked posts required a join, grouping the results and ordering them, as it did the latest notifications of an user.
+Retrieving the posts and activies of an user was easy I just had to use a simple join to get the data from two different tables, getting the comments and likes of a specific post was almost the same, it just needed more than two tables, to obtain the list of followers and unread messages of an user I just had to filter the results of a simple query, getting the most liked posts required a join, grouping the results and ordering them, as it did the latest notifications of an user.
 
 To obtain the most followed users I had to use a function to count the entries, also to group them and to order them, finding the most activer users was one of the most challenging ones, as it required counting the distinct entries with a function, grouping the results, ordering the results and joining multiples tables with a left join, finally obtaining the average number of comments per post just required some functions.
 
